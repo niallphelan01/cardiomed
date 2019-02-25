@@ -1,2 +1,2 @@
 # cardiomed
-Cardiomed website
+This is the Cardiomed development website, for practical purposes.
