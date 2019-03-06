@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html>
-   <head>
-   <meta charset="utf-8">
-   <title>CardioMed Ambulatory Blood Pressure monitor</title>
-   <link rel="stylesheet" href="./css/home.css">
-   </head>
-   <body>
-   <div class="container">
-    <div id="header">
+  <head>
+    <meta charset="utf-8">
+    <title>iHealth Cardiomed</title>
+    <link rel="stylesheet" href="./css/home.css">
+  </head>
+  <body>
+    <section class="container">
+      <header id="header">
   <a href="index.html"><img src="images/ihealthcardiomed.jpg" alt="ihealth" class="large-centre-img"> </a>
-</div>
-    <div id="navigation">
-        <ul id="menu">
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="device.html">Device</a></li>
-          <li><a href="software.html">Software</a></li>
-          <li><a href="clinval.html">Clinical Validation</a></li>
-          <li><a href="why.html">Blood Pressure</a></li>
-          <li><a href="contact_us.html">Contact us</a></li>
-        </ul>
-      </div>
-      </div>
-      <div id="maincontent">
-        <div id="primary">
-          <h1>Welcome to iHealth CardioMed</h1>
-          <h3>The first Smart 24hr Ambulatory Blood Pressure Monitor</h3>
-          <p> Welcome to the iHealth Cardiomed device. This lightweight, all in one, 25 to 49hr ABPM sits on the arm giving comfortable operation, patient comfort and high quality measurments. 
-          </p>
-          <p>The software used to generate reports on this device has been designed by <a href="http://www.medaval.ie">Medaval Ltd</a>, leaders in the provision of information and assessment of the accuracy and quality of blood pressure devices.</p> 
-            <p>The Blood pressure monitor has been developed by Medaval Ltd in conjunction with <a href="https://ihealthlabs.com">iHealth</a>
-             </p>
-             <img src="images/ihealthcardiomed_device.jpg" alt="ihealth" class="medium-centre-img">
-        </div>
-        <div id="secondary">
-  <p class="highlight">
-  <img src="images/aio.jpg" alt="All in one design" class="small-centre-img">
-  All in one design
-  </p>
-  <p class="highlight">
-  <img src="images/24_48.jpg" alt="The device can be used over 24-48hrs" class="small-centre-img">
-  24/48hr usage
-  </p>
-  <p class="highlight">
-  <img src="images/quiet.jpg" alt="The device is quiet to use" class="small-centre-img">
-   Quiet operation
-   </p>
-  <p class="highlight">
-  <img src="images/timer.jpg" alt="The device is automated" class="small-centre-img">
-  Automatic Measurement
-  </p>
-  <p class="highlight">
-  <img src="images/iso.jpg" alt="The device is tested to ISO81060-2-2013" class="small-centre-img">
-  Device tested ISO81060-2-2013
-  </p>
+</header>
+      <nav id="navigation">
+    <ul id="menu">
+    	<li id="home"><a href="index.html">Home</a></li>
+        <li id="device"><a href="device.html">Device</a></li>
+        <li id="software"><a href="software.html">Software</a></li>
+        <li id="clinical"><a href="clinval.html">Clinical Validation</a></li>
+        <li id="why"><a href="why.html">Blood Pressure</a></li>
+        <li id="contact"><a href="contact_us.html">Contact us</a></li>
+    </ul>
+</nav>
 
-</div>
-      <div id="footer">
+<script>
+  document.querySelector("#home").classList.add("active")
+</script>
+<main id="maincontent">
+  <article id="primary">
+    <h1>Welcome to iHealth CardioMed</h1>
+    <h3>The first Smart 24hr Ambulatory Blood Pressure Monitor</h3>
+    <p> 
+      Welcome to the iHealth Cardiomed device. This lightweight, all in one, 25 to 49hr ABPM sits on the arm giving comfortable operation, patient comfort and high quality measurments. 
+    </p>
+    <p>
+      The software used to generate reports on this device has been designed by <a href="http://www.medaval.ie">Medaval Ltd</a>, leaders in the provision of information and assessment of the accuracy and quality of blood pressure devices.
+    </p> 
+    <p>
+        The Blood pressure monitor has been developed by Medaval Ltd in conjunction with <a href="https://ihealthlabs.com">iHealth</a>
+    </p>
+    <p>
+      <img src="images/ihealthcardiomed_device.jpg" alt="ihealth" class="medium-centre-img">
+    </p>
+  </article>
+  <aside id="secondary">
+  <p class="highlight">
+   <img src="images/aio.jpg" alt="All in one design" class="small-centre-img">
+   All in one design
+  </p>
+  <p class="highlight">
+    <img src="images/24_48.jpg" alt="The device can be used over 24-48hrs" class="small-centre-img">
+    24/48hr usage
+  </p>
+  <p class="highlight">
+    <img src="images/quiet.jpg" alt="The device is quiet to use" class="small-centre-img">
+    Quiet operation
+  </p>
+  <p class="highlight">
+    <img src="images/timer.jpg" alt="The device is automated" class="small-centre-img">
+    Automatic Measurement
+  </p>
+  <p class="highlight">
+    <img src="images/iso.jpg" alt="The device is tested to ISO81060-2-2013" class="small-centre-img">
+    Device tested ISO81060-2-2013
+  </p>
+</aside>
+</main>
+      <footer id="footer">
   <p> Contact us at : niall@medtec.ie, or visit us: <a href="contact_us.html"> Contact us </a></p>
-</div>
-   </body>
- </html>
+</footer>
+    </section>
+  </body>
+</html>
