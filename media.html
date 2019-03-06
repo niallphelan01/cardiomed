@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>iHealth Cardiomed</title>
+    <link rel="stylesheet" href="./css/home.css">
+  </head>
+  <body>
+    <section class="container">
+      <header id="header">
+  <a href="index.html"><img src="images/ihealthcardiomed.jpg" alt="ihealth" class="large-centre-img"> </a>
+</header>
+      <nav id="navigation">
+    <ul id="menu">
+    	<li id="home"><a href="index.html">Home</a></li>
+        <li id="device"><a href="device.html">Device</a></li>
+        <li id="software"><a href="software.html">Software</a></li>
+        <li id="clinical"><a href="clinval.html">Clinical Validation</a></li>
+        <li id="why"><a href="why.html">Blood Pressure</a></li>
+        <li id="contact"><a href="contact_us.html">Contact us</a></li>
+        <li id="media"><a href="media.html">Media</a></li>
+    </ul>
+</nav>
+
+<script>
+  document.querySelector("#media").classList.add("active")
+</script>
+<main id="maincontent">
+  <div id="primary">
+    <h2>Media content</h2>
+     <p>
+       Please see below some images and content for the iHealth Cardiomed device
+     </p>
+     <p>
+      <video controls="controls" width="800" height="600" name="Cardiomed">
+        <source src="videos/cardiomed.mov" type="video/mov">
+        </source><source src="videos/cardiomed.mp4" type="video/mp4">
+        <!-- Cannot specift percentagets only pixels-->
+        <p>
+          Your browser doesn't support HTML5 video. Here is a 
+          <a href="videos/cardiomed.mp4" target="_blank">link to the video
+          </a> 
+          instead.
+        </p>
+       </source></video>
+     </p><p>
+      Please see the image below of a typical pdf report, <em>click on it to see an example report</em>
+     </p>
+     <p>
+      <a href="files/sample_report.pdf" target="pdf-frame"><img src="images/sample_report_image.jpg" alt="Sample report image with link" class="mediumlrg-centre-img"></a>
+    </p>
+     <p>
+      Please come back soon as we will have more content added
+    </p>
+  </div>
+  <aside id="secondary">
+  <p class="highlight">
+   <img src="images/aio.jpg" alt="All in one design" class="small-centre-img">
+   All in one design
+  </p>
+  <p class="highlight">
+    <img src="images/24_48.jpg" alt="The device can be used over 24-48hrs" class="small-centre-img">
+    24/48hr usage
+  </p>
+  <p class="highlight">
+    <img src="images/quiet.jpg" alt="The device is quiet to use" class="small-centre-img">
+    Quiet operation
+  </p>
+  <p class="highlight">
+    <img src="images/timer.jpg" alt="The device is automated" class="small-centre-img">
+    Automatic Measurement
+  </p>
+  <p class="highlight">
+    <img src="images/iso.jpg" alt="The device is tested to ISO81060-2-2013" class="small-centre-img">
+    Device tested ISO81060-2-2013
+  </p>
+</aside>
+
+<p>Your browser doesn't support HTML5 video. Here is
+     a <a href="myVideo.mp4">link to the video</a> instead.</p></main>
+      <footer id="footer">
+  <p> Contact us at : niall@medtec.ie, or visit us: <a href="contact_us.html"> Contact us </a></p>
+</footer>
+    </section>
+  </body>
+</html>
