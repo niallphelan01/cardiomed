@@ -23,7 +23,8 @@ ul#features li{
  line-height: 3em;
 }
 ul#technical_information li{
- color: #FF530D;
- line-height: 1em;
+ color: gray;
+ line-height: 2em;
+
 }
 
