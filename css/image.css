@@ -17,11 +17,19 @@
 
 .medium-centre-img {
   display: block;
-  width: 150px;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   float: middle;
 }
+.medium-left-img {
+  display: flex;
+  width:40%;
+  position: left;
+  border: 1em solid #ddd;
+  padding:4em;
+}
+
 
 .large-centre-img {
   display: block;
