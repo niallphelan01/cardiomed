@@ -8,65 +8,6 @@
   margin: 50px;
 }
 
-
-.small-right-img {
-  width: 80px;
-  float: right;
-  margin: 10px;
-}
-
-.medium-right-img {
-  width: 150px;
-  float: right;
-  margin: 10px;
-}
-
-.large-right-img {
-  width: 250px;
-  float: right;
-  margin: 10px;
-}
-
-.small-left-img {
-  width: 80px;
-  float: left;
-  margin: 10px;
-}
-
-.medium-left-img {
-  width: 150px;
-  float: left;
-  display: block;
-  margin: 10px;
-}
-.med-lft-img
-{
-  width: 150px;
-  display: inline-block;
-  float: left;
-  margin: 10px; 
-}
-.med-cent-img
-{
-  width: 150px;
-  display: inline-block;
-  margin: 10px; 
-  float: middle;
-}
-.med-right-img
-{
-  width: 150px;
-  display: inline-block;
-  margin: 10px; 
-  float: right;
-}
-
-.large-left-img {
-  width: 250px;
-  float: left;
-  margin: 10px;
-}
-
 .small-centre-img {
   display: block;
   width: 80px;
