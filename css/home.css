@@ -3,15 +3,15 @@
 @import url("nav.css");
 
 body {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: small;
+  font-family: Helvetica Neue;
+  font-size: medium;
   line-height: 1.6em;
 }
 a.link, a.hover, a.active, a.visited{
   color:white;
 }
 h1, h2 {
-  color: #FF530D;
+  color: #ff5200;
   margin: 3%;
 }
 
@@ -23,14 +23,15 @@ h2 {
   font-size: 130%;
 }
 h3 {
-  color:grey;
+  color:#808080;
   font-size: 110%;
   margin: 4%;
 }
 
 p {
-  color: grey;
+  color: #808080;
   margin-left: 5%;
+  line-height: 2em;
 }
 a.link, a.hover, a.active, a.visited{
   color:white;
@@ -41,7 +42,7 @@ a.link, a.hover, a.active, a.visited{
 }
 
 .highlight {
-  color: grey;
+  color: #808080;
   line-height: 1em;
   text-align: center;
 }
@@ -50,7 +51,12 @@ a.link, a.hover, a.active, a.visited{
   color:grey;
   font-size: 100%;
   margin: 5%;
+  border: 1px solid #ddd;
+  font-style: italic;
+  padding:1em;
 }
+
+
 
 
 

@@ -32,7 +32,6 @@
 
 
 .large-centre-img {
-  display: block;
   width: 80%;
   display: inline-block;
   margin-left: auto;
@@ -44,4 +43,15 @@
   width: 35%;
   margin-left: auto;
   margin-right: auto;
+}
+#Clinical{
+  border-color: #808080;
+  border-style: dashed;
+  padding:5em;
+  width:25%;
+  height: 15%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+ 
 }

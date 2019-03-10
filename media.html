@@ -26,39 +26,45 @@
   document.querySelector("#media").classList.add("active")
 </script>
 <main id="maincontent">
-  <div id="primary">
-    <h2>Media content</h2>
-     <p>
-       <h3>Unboxing video</h3>
-        </p><p> See below a video of the unboxing of the cardio med. All  accessories are provided. Additional cuffs are supplied as required.
-        </p>
-     
-     <p>
-      <video controls="controls" width="600" height="600" name="Cardiomed">
-        <source src="videos/cardiomed.mp4" type="video/mp4">
-        </source><source src="videos/cardiomed.mov" type="video/mov">
+  <article id="primary">
+    <section>
+      <h2>Media content</h2>
+      <h3>Unboxing video</h3>
+      <p> 
+        See below a video of the unboxing of the cardio med. All  accessories are provided. Additional cuffs are supplied as required. We also supply all charging bases required for multiple units on your site and work with your IT team to provide the most integrated experience.
+      </p>
+      <p>
+        <video controls="controls" width="600" height="600" name="Cardiomed">
+        <source src="videos/cardiomed.mov" type="video/mov">
+        </source><source src="videos/cardiomed.mp4" type="video/mp4">
         <!-- Cannot specift percentagets only pixels
           reference: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+          I've included two video sources in the <video> tag in order to allow for different browsers and operating systems.
         -->
-        <p>
-          Your browser doesn't support HTML5 video. Here is a 
-          <a href="videos/cardiomed.mp4" target="_blank">link to the video
-          </a> 
-          instead.
-        </p>
-       </source></video>
-        </p><p>
-      Please see the image below of a typical pdf report, <em>click on it to see an example report</em>
-     </p>
-     <p>
-       <a href="files/sample_report.pdf" target="pdf-frame"><img src="images/sample_report_image.jpg" alt="Sample report image with link" class="medium-left-img"></a>
-     </p>
-       <h2>Additional iHealth Devices</h2>
-       <p>
-        There are many additional units available from iHealth, we also stock these to support both you and your patients.
-       </p>
-     <p>
-       <iframe width="600" height="453" src="https://www.youtube.com/embed/llcOj4hCw4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </source></video>
+      </p>
+      <p>
+        Should your browser not support HTML5 video, here is a 
+        <a href="videos/cardiomed.mp4" target="_blank">link to the video
+          </a>instead.
+      </p>
+    </section>
+    <section>
+      <h3>Typical Report</h3>
+      <p>
+        Please see the image below of a typical pdf report, <em>click on it to see an example report</em>
+      </p>
+      <p>
+        <a href="files/sample_report.pdf" target="pdf-frame"><img src="images/sample_report_image.jpg" alt="Sample report image with link" class="medium-left-img"></a>
+      </p>
+    </section>
+    <section>
+      <h2>Additional iHealth Devices</h2>
+      <p>
+        There are many additional units available from iHealth for measuring blood pressure, oxygen saturation, blood glucose, temperature, fitness and weight, we also stock these to support both you and your patients.
+      </p>
+      <p>
+        <iframe width="600" height="453" src="https://www.youtube.com/embed/llcOj4hCw4g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
       <p>
          <img src="images/comingsoon.png" alt="comingsoon" class="medium-centre-img">
@@ -66,7 +72,8 @@
       <p>
         Please come back soon as we will have more content added.
       </p>
-  </div>
+    </section>
+  </article>
   <aside id="secondary">
   <p class="highlight">
    <img src="images/aio.jpg" alt="All in one design" class="small-centre-img">
@@ -91,7 +98,9 @@
 </aside>
 </main>
       <footer id="footer">
-  <p> Contact us at : niall@medtec.ie, or visit us: <a href="contact_us.html"> Contact us </a></p>
+  <p> 
+    Contact us at : niall@medtec.ie, or visit  <a href="contact_us.html"> Contact us </a>
+  </p>
 </footer>
     </section>
   </body>
